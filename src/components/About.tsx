@@ -1,5 +1,3 @@
-import profileImage from '../assets/profile-image.jpeg';
-
 const stats = [
   { value: '3+', label: 'Years Experience' },
   { value: '20+', label: 'Projects Delivered' },
@@ -18,20 +16,22 @@ export default function About() {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-16 items-center">
-          {/* Left: text */}
+          {/* Left: text + stats */}
           <div className="space-y-6">
             <p className="text-slate-300 text-lg leading-relaxed">
-             I specialize in using Power BI, SQL, Excel, and Python to transform raw data into clear insights that support strategic decision-making. With a background in quality analysis, I bring a unique combination of analytical precision and business awareness to every project.
+              I specialize in using Power BI, SQL, Excel, and Python to transform raw data into clear insights that support strategic decision-making. With a background in quality analysis, I bring a unique combination of analytical precision and business awareness to every project.
             </p>
             <p className="text-slate-400 leading-relaxed">
               My goal is simple: build data solutions that are not only visually effective, but genuinely useful for solving business problems.
             </p>
-            {/* <p className="text-slate-400 leading-relaxed">
-              When I'm not wrangling data, you'll find me experimenting with machine learning
-              models, contributing to open-source visualization projects, or hiking the trails
-              around the Bay Area.
-            </p> */}
+            <p className="text-slate-400 leading-relaxed">
+              Outside of work, I enjoy exploring new datasets out of pure curiosity, keeping up with trends in data storytelling, and finding creative ways to visualize everyday information.
+            </p>
+          </div>
 
+          {/* Right: toolkit */}
+          <div className="space-y-4">
+            <p className="text-slate-500 text-sm uppercase tracking-widest font-semibold">Stats</p>
             <div className="grid grid-cols-2 gap-4">
               {stats.map(({ value, label }) => (
                 <div
@@ -45,15 +45,6 @@ export default function About() {
                 </div>
               ))}
             </div>
-          </div>
-
-          {/* Right: image */}
-          <div className="h-full">
-            <img
-              src={profileImage}
-              alt="Profile"
-              className="w-full h-full object-cover rounded-2xl shadow-lg shadow-cyan-500/10"
-            />
           </div>
         </div>
       </div>

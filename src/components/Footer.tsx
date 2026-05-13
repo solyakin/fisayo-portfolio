@@ -7,11 +7,11 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
         <div className="flex items-center gap-2 text-cyan-400 font-bold">
           <BarChart2 size={20} />
-          <span>Fisayo Omotosho</span>
+          <span>Fisayo Omotoso</span>
         </div>
 
         <p className="text-slate-600 text-sm text-center">
-          © {new Date().getFullYear()} Fisayo Omotosho·
+          © {new Date().getFullYear()} copyright
         </p>
 
         <div className="flex items-center gap-4">
