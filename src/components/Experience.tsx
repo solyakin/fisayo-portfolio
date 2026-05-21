@@ -9,38 +9,30 @@ interface Role {
 
 const roles: Role[] = [
   {
-    company: 'Stripe',
-    title: 'Senior Data Analyst',
-    period: 'Jan 2022 – Present',
-    location: 'San Francisco, CA',
+    company: 'May & Baker Nigeria Plc',
+    title: 'Data & Quality Analyst',
+    period: 'Oct 2024 – Present',
+    location: 'Ogun State, NG',
     current: true,
     highlights: [
-      'Lead analyst for the Revenue Intelligence team, owning dashboards used by 200+ stakeholders across Finance and GTM.',
-      'Built a self-serve analytics layer in dbt + Looker reducing ad-hoc SQL requests by 60%.',
-      'Designed A/B testing framework standardizing experiment analysis across 12 product squads.',
-      'Mentored 3 junior analysts, running weekly office hours and quarterly growth reviews.',
+      'Analyzed production and quality data to identify trends and reduce curring defects by 40%',
+      'Monitored and validated real-time datasets to ensure 100% data accuracy for reporting',
+      'Conducted trend analysis on product metrics to detect anomalies and prevent large-scale errors',
+      'Transformed raw production data into structured reports for decision-making',
+      'Maintained and audited datasets to ensure consistency, integrity, and compliance.'
     ],
   },
   {
-    company: 'Shopify',
-    title: 'Data Analyst',
-    period: 'Mar 2020 – Dec 2021',
-    location: 'Remote (Toronto, CA)',
+    company: 'Solace Enterprise',
+    title: 'Data Analyst Intern',
+    period: 'Jan. 2024 – Sept. 2024',
+    location: 'Ogun state, NG',
     highlights: [
-      'Owned merchant health scoring model in BigQuery, powering churn prevention for 1M+ merchants.',
-      'Partnered with Product to redesign onboarding funnel; contributed to 14% improvement in D30 activation.',
-      'Automated weekly reporting pipeline with Airflow, saving 8+ hours of manual work per week.',
-    ],
-  },
-  {
-    company: 'Accenture',
-    title: 'Business Intelligence Analyst',
-    period: 'Jul 2018 – Feb 2020',
-    location: 'New York, NY',
-    highlights: [
-      'Delivered Tableau dashboards for Fortune 500 clients in retail and healthcare verticals.',
-      'Wrote optimized SQL queries against Oracle and Snowflake warehouses for executive reporting.',
-      'Supported data migration project, validating 50M+ records for accuracy and completeness.',
+      'Collected and analyzed data to support quality control decisions',
+      'Improved data collection processes, increasing efficiency by 20%',
+      'Developed insightful dashboards that track product performance using Power Bi',
+      'Identified patterns in product quality issues, helping reduce customer complaints',
+      '⁠Structured and interpreted datasets for reporting and operational improvements.'
     ],
   },
 ];
@@ -107,10 +99,10 @@ export default function Experience() {
           </div>
           <div className="flex-1">
             <h3 className="text-white font-semibold">M.S. Statistics</h3>
-            <p className="text-cyan-400 text-sm">Stanford University</p>
+            <p className="text-cyan-400 text-sm">University of Ibadan</p>
             <p className="text-slate-500 text-sm">2016 – 2018 · GPA 3.9/4.0 · Thesis: Bayesian Methods for Time-Series Anomaly Detection</p>
           </div>
-          <div className="text-slate-500 text-sm shrink-0">Stanford, CA</div>
+          <div className="text-slate-500 text-sm shrink-0">Oyo State, Nigeria</div>
         </div>
       </div>
     </section>

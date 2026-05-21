@@ -14,7 +14,7 @@ const categories: SkillCategory[] = [
     title: 'Languages & Querying',
     color: 'from-cyan-500 to-blue-500',
     skills: [
-      { name: 'SQL (PostgreSQL, BigQuery)', level: 97 },
+      { name: 'SQL (MySQL)', level: 97 },
       { name: 'Python (pandas, NumPy)', level: 92 },
       { name: 'R', level: 78 },
       { name: 'DAX / M Query', level: 85 },
@@ -26,18 +26,7 @@ const categories: SkillCategory[] = [
     skills: [
       { name: 'Tableau', level: 94 },
       { name: 'Power BI', level: 88 },
-      { name: 'Looker / LookML', level: 80 },
-      { name: 'Matplotlib / Seaborn', level: 86 },
-    ],
-  },
-  {
-    title: 'Data Engineering',
-    color: 'from-emerald-500 to-teal-500',
-    skills: [
-      { name: 'dbt (data build tool)', level: 85 },
-      { name: 'Apache Airflow', level: 72 },
-      { name: 'Spark / PySpark', level: 68 },
-      { name: 'ETL Pipeline Design', level: 90 },
+      { name: 'Excel', level: 80 },
     ],
   },
   {
@@ -50,13 +39,22 @@ const categories: SkillCategory[] = [
       { name: 'Excel / Google Sheets', level: 95 },
     ],
   },
+  {
+    title: 'Other Competencies',
+    color: 'from-emerald-500 to-teal-500',
+    skills: [
+      { name: 'Data Storytelling', level: 85 },
+      { name: 'Data Cleaning', level: 72 },
+      { name: 'Database Managment', level: 68 },
+      { name: 'Data Integrity', level: 90 },
+    ],
+  },
 ];
 
-const badges = [
-  'A/B Testing', 'Statistical Modeling', 'Forecasting', 'Data Cleaning',
-  'Cohort Analysis', 'Funnel Analysis', 'Customer Segmentation',
-  'KPI Development', 'Data Storytelling', 'Machine Learning',
-];
+// const badges = [
+//   'Data Storytelling', 'Data Cleaning', 'Forecasting', 'Database Management',
+//   'Data Integrity', 'Process Optimization', 'Technical Communication',
+// ];
 
 export default function Skills() {
   return (
@@ -95,7 +93,7 @@ export default function Skills() {
         </div>
 
         {/* Badges */}
-        <div className="text-center">
+        {/* <div className="text-center">
           <p className="text-slate-500 text-sm mb-4">Other competencies</p>
           <div className="flex flex-wrap justify-center gap-2">
             {badges.map((b) => (
@@ -107,7 +105,7 @@ export default function Skills() {
               </span>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
