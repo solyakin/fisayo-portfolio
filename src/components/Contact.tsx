@@ -32,7 +32,7 @@ export default function Contact() {
                 {[
                   { icon: Mail, label: 'Email', value: 'omotosofisayoesther@gmail.com', href: 'mailto:omotosofisayoesther@gmail.com' },
                   { icon: MapPin, label: 'Location', value: 'Lagos, Nigeria (Open to remote)', href: null },
-                  { icon: BsLinkedin, label: 'LinkedIn', value: 'linkedin.com/in/fisayo-omotosho', href: 'https://www.linkedin.com/in/fisayo-omotoso-67082b173' },
+                  { icon: BsLinkedin, label: 'LinkedIn', value: 'linkedin.com/in/fisayo-omotoso', href: 'https://www.linkedin.com/in/fisayo-omotoso-67082b173' },
                   { icon: BsGithub, label: 'GitHub', value: 'github.com/Fisayo01', href: 'https://github.com/Fisayo01' },
                 ].map(({ icon: Icon, label, value, href }) => (
                   <div key={label} className="flex items-center gap-4">

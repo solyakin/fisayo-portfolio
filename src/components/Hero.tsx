@@ -47,8 +47,8 @@ export default function Hero() {
               View My Work
             </a>
             <a
-              href="/Fisayo_Omotoso_CV.pdf"
-              download
+              href="https://drive.google.com/file/d/1crw26s43bFkRzZDu4VH53X_g8IzUGaNv/view?usp=drive_link"
+              target="_blank"
               className="px-6 py-3 rounded-xl border border-slate-700 text-slate-300 font-semibold hover:border-cyan-500 hover:text-cyan-400 transition-all flex items-center gap-2"
             >
               <Download size={16} />

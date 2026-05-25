@@ -98,9 +98,9 @@ export default function Experience() {
             </svg>
           </div>
           <div className="flex-1">
-            <h3 className="text-white font-semibold">M.S. Statistics</h3>
+            <h3 className="text-white font-semibold">Bsc. Microbiology</h3>
             <p className="text-cyan-400 text-sm">University of Ibadan</p>
-            <p className="text-slate-500 text-sm">2016 – 2018 · GPA 3.9/4.0 · Thesis: Bayesian Methods for Time-Series Anomaly Detection</p>
+            <p className="text-slate-500 text-sm">2019 – 2024 · GPA 3.46/4.0</p>
           </div>
           <div className="text-slate-500 text-sm shrink-0">Oyo State, Nigeria</div>
         </div>
